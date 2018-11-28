@@ -1,0 +1,28 @@
+
+ first compile and run create_lists.c
+  
+ you'll have the following files created
+  
+   1.comp_list.txt  : having the computer list
+   2.withdrawn.txt  : to be removed from the computer list
+   3.accession.txt  : containing original accession numbers
+   4.physical.txt   : for now it just contains random numbers
+
+ you can make changes manually to comp_list.txt by adding characters anywhere
+ except at the begining of the file.
+
+ *compile and run lib.c
+
+ your comp_list.txt gets modified by removal of withdrawn numbers
+
+ *compile and run phase2.c
+
+ certain accession register numbers which are previously not in comp_list.txt
+ gets added
+
+ *finally compile and run 3rd_phase.c
+
+ here duplicate removal will be done for physical.txt and missing books from
+ physical.txt gets inserted in a new file called missing.txt
+
+ 
